@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_i925.mk
+    $(LOCAL_DIR)/full_n8020.mk

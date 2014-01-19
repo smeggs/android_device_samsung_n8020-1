@@ -87,12 +87,6 @@ service at_distributor /system/bin/at_distributor
     user root
     group radio log
 
-# diag app for cp uart
-service diag_uart_log /system/bin/diag_uart_log
-    class main
-    user root
-    group radio
-
 service netmgrd /system/bin/netmgrd
     class late_start
 
